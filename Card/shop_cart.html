@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Card</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<style>
+    body{
+    background-color: rgb(169, 240, 240);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+
+}
+
+header{
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.card1{
+    height: 380px;
+    width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: rgb(204, 229, 237);
+    margin: 20px;
+    box-shadow: 5px 5px 10px black;
+    
+    
+}
+.card1:hover{
+    box-shadow:0 5px 30px black;
+    transition: all 0.5s ease-in;
+    transform: rotate(10);
+    transform: rotate(-1deg);
+
+    
+
+}
+
+
+.img-section{
+    height: 170px;
+    width: 300px;
+    /* background-color: orange; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-section p{
+    text-align: center;
+}
+.img{
+    height: 140px;
+    width: 160px;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    box-shadow: 2px 2px 7px black;
+}
+
+.img:hover{
+    box-shadow: 5px 5px 10px black;
+    transition: all 0.5s ease-in;
+}
+
+h2{
+    text-align: center;
+}
+
+.price{
+    margin-left: 70px;
+    font-size:larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.discount{
+        margin-left: 70px;
+        font-size: larger;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.buy{
+    height: 35px;
+    width: 100px;
+    margin-left: 95px;
+    background-color: rgb(43, 68, 232);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.buy:hover{
+    background-color: rgb(13, 13, 129);
+    
+    
+}
+
+footer{
+    /* display: flex;
+    align-items: center;
+    justify-content: ; */
+    text-align: center;
+    font-size: larger;
+    /* background-color: antiquewhite; */
+}
+</style>
+<body>
+    <header>
+        <h1>Best Television Deals</h1>
+    </header>
+    <div class="container">
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2024/8/446102975/CG/WG/ZC/1251599/sony-75-4k-android-smrt-tv-k75s-30-1000x1000.jpg"
+                    class="img">
+
+            </div>
+            <h2>Sony</h2>
+            <p class="price"><b>Price: </b>&#8377; 1,34,000</p>
+            <p class="discount"><b>Discount: </b>20%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://vasanthandco.in/UploadedFiles/productimages/20241114035328-Untitled-1.png"
+                    class="img">
+
+            </div>
+            <h2>Panasonic</h2>
+            <p class="price"><b>Price: </b>&#8377; 2,34,000</p>
+            <p class="discount"><b>Discount: </b>15%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://m.media-amazon.com/images/I/816jSKbarJL._SL1500_.jpg" class="img">
+
+            </div>
+            <h2>Samsung</h2>
+            <p class="price"><b>Price: </b>&#8377; 1,80,000</p>
+            <p class="discount"><b>Discount: </b>25%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://emersonaudio.com/cdn/shop/files/ET-2400_hero_mobile.jpg?v=1745519218&width=720"
+                    class="img">
+
+            </div>
+            <h2>Emerson</h2>
+            <p class="price"><b>Price: </b>&#8377; 2,50,000</p>
+            <p class="discount"><b>Discount: </b>18%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://m.media-amazon.com/images/I/51b3lrvMcDL._AC_SL1080_.jpg" class="img">
+
+            </div>
+            <h2>HP</h2>
+            <p class="price"><b>Price: </b>&#8377; 3,34,000</p>
+            <p class="discount"><b>Discount: </b>10%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://m.media-amazon.com/images/I/51FTt6yx2NL._SX300_SY300_QL70_FMwebp_.jpg" class="img">
+
+            </div>
+            <h2>Acer</h2>
+            <p class="price"><b>Price: </b>&#8377; 1,80,000</p>
+            <p class="discount"><b>Discount: </b>25%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://techstore.co.in/cdn/shop/products/1_6ee1d069-b5d5-41f3-a8f3-73e5c41eef7a.jpg?v=1670937821&width=713"
+                    class="img">
+
+            </div>
+            <h2>DELL</h2>
+            <p class="price"><b>Price: </b>&#8377; 1,60,000</p>
+            <p class="discount"><b>Discount: </b>19%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/television/r/w/p/-original-imaheedjsdgzamyz.jpeg?q=70&crop=false"
+                    class="img">
+
+            </div>
+            <h2>LG</h2>
+            <p class="price"><b>Price: </b>&#8377; 2,00,000</p>
+            <p class="discount"><b>Discount: </b>30%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+        <div class="card1">
+            <div class="img-section">
+                <img src="https://vasanthandco.in/UploadedFiles/productimages/20241114035328-Untitled-1.png"
+                    class="img">
+
+            </div>
+            <h2>Panasonic</h2>
+            <p class="price"><b>Price: </b>&#8377; 2,34,000</p>
+            <p class="discount"><b>Discount: </b>15%</p>
+            <button class="buy">Buy Now</button>
+        </div>
+
+    </div>
+    <footer>
+        <p>&copy; Vaishnavi Kamble</p>
+        <p><b>Roll No:</b>3104</p>
+    </footer>
+</body>
+
+</html>
